@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+
+/*primary button*/
+.primary-button{
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    
+}
+
+
+/*Header*/
+
+header{
+    background-color: #fff4e6;
+    padding-left: 288px ;
+    padding-right: 288px;
+    padding-top: 50;
+    padding-bottom: 50px;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav>h3{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    padding-left: 50px;
+    
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner-title{
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-text{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/*Features*/
+
+.features{
+    padding: 85px 300px;
+    display: flex;
+    align-items: center;
+}
+
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 24px;
+
+}
+
+.features-des{
+    margin-left: 76px;
+}
+
+.features-des>h3{
+    
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.grey{
+    font-weight: 500;
+    color: #727272;
+}
+.orange{
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.fetures-para{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom:32px ;
+}
