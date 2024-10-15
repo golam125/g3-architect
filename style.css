@@ -87,10 +87,14 @@ nav li a{
     line-height: 26px;
     margin-bottom: 32px;
 }
+.banner-img{
+    width: 100%;
+}
 
 /*Features*/
 
 .features{
+    
     padding: 85px 300px;
     display: flex;
     align-items: center;
@@ -127,11 +131,403 @@ nav li a{
 
 .fetures-para{
     color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom:32px ;
+}
+
+
+/*Love and Enjoy*/
+.experience{
+    padding-left: 240px;
+    padding-right: 240px;
+    display: flex;
+
+}
+
+.ex-des{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.ex-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+}
+
+.ex-para{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+.quality{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20PX;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+
+}
+
+.quality-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quality-des{
+
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:10;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+.year{
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -100px;
+    background-color: #FF900E ;
+    width: 342px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-image{
+    margin-left: 99px;
+    height: 982px ;
+}
+
+.year h1{
+
+    color: white;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.year p{
+    color: white;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 0;
+
+}
+
+/*SOme facts*/
+
+.facts{
+    padding: 130px 240px ;
+}
+.facts h3{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon-detials{ 
+    margin-top:100px ;
+    padding: 30px 30px;
+    border: 1px solid rgb(255, 144, 14);
+    text-align: center;
+
+}
+
+.icon-detials h3{
+    color: rgb(66, 66, 66);
+    margin: 0;
 font-family: Work Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+font-size: 45px;
+font-weight: 600;
+text-align: center;
+
+}
+
+.icon-detials p{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
 letter-spacing: 0%;
 text-align: left;
-margin-bottom:32px ;
+}
+
+footer{background-color:#FFF4E7 ;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer p{
+    padding: 40px 300px ;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+
+/*Responsive*/
+
+@media screen and (max-width : 576px ) {
+
+
+    /*Header*/
+
+header{
+    
+    padding-left: 10px ;
+    padding-right: 10px;
+
+}
+nav{
+    
+    flex-direction: column;
+    
+}
+nav>h3{
+    text-align: center;
+}
+
+nav> ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+nav li{
+    list-style: none;
+    padding-left: 50px;
+    
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner-title{
+    font-family: Work Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-text{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/*Features*/
+
+.features{
+    
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features-img{
+    width: 100%;
+   
+}
+.f-img{
+    width: 100%;
+}
+
+.features-des{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features-des>h3{
+    
+    text-align: center;
+}
+.grey{
+    font-weight: 500;
+    color: #727272;
+}
+.orange{
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.fetures-para{
+    text-align: center;
+}
+
+/*Experience*/
+
+.experience{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ex-des{
+    width: 100%;
+    padding-right: 0px;
+}
+
+.ex-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: left;
+}
+
+.ex-para{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+
+.quality{
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20PX;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+
+}
+
+.quality-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.quality-des{
+
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top:-10;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.ex-img{
+    width:100%;
+}
+.exp-image{
+    margin-left: 0px;
+    height: auto ;
+}
+
+
+.year{
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #FF900E ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.year h1{
+
+    color: white;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 0;
+}
+
+.year p{
+    color: white;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 0;
+}
+
+
+
+    
+
+    
 }
